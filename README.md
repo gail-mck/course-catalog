@@ -1,4 +1,4 @@
-# Madeira Course Catalog
+# course-catalog
 
 What: An interactive website version of the Madeira course catalog with a drag-and-drop four-year academic planner. Students can browse courses by department, see prerequisite and corequisites, track graduation requirements, and map out a plan before meeting with the academic dean.
 
