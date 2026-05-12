@@ -1,6 +1,6 @@
 # course-catalog
 
-What: An interactive website version of the Madeira course catalog with a drag-and-drop four-year academic planner. Students can browse courses by department, see prerequisite and corequisites, track graduation requirements, and map out a plan before meeting with the academic dean.
+What: An interactive website version of the Madeira course catalog with a drag-and-drop four-year academic planner, built as a Jekyll site. Students can browse courses by department, see prerequisite and corequisites, track graduation requirements, and map out a plan before meeting with the academic dean.
 
 Why: Right now, the course catalog is a very long PDF, which makes it hard to understand how courses connect or what they lead to. New students are expected to absorb a lot of information in one sitting with their academic dean, often for the first time. This tool lets students explore on their own terms beforehand, and serves as a reference point to make the planning process smooth.
 
