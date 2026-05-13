@@ -4,4 +4,4 @@ layout: home
 nav_exclude: true
 ---
 
-Hello Snails! Welcome to Madeira's course catalog.
+Hello Snails! Welcome to the Madeira course catalog.
