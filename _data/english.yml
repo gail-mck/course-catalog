@@ -1,0 +1,116 @@
+- id: english-i
+  name: "English I"
+  blocks: "3"
+  grade_levels: [9]
+  prereqs: "None"
+  coreqs: "None"
+  description: "During the first year of required English, students are introduced to fundamental texts from widely different cultures and time periods to shape and explore questions essential to the study of literature in English. To build multidisciplinary literacy, English I also tasks students with learning how the arts and sociohistorical contexts inform their texts. Students learn the process of crafting expository writing, moving from invention strategies to revision. Throughout the year, vocabulary building and grammar work help lay a foundation for clear, effective writing."
+  modules:
+    - name: "Introduction to Literary Studies"
+      description: "The focus of this course is on discovering critical approaches to literature, practicing the conventions of analytical writing, honing close reading and annotation skills, and exploring grammar concepts important to the production of high-quality written work. Students will read several complex texts and observe how the form and background of each work reveal strategies for their interpretation. Students can expect to read longer heroic journey narratives like Homer's Odyssey or Richard Adams's Watership Down, and smaller works like Salman Rushdie's Haroun and the Sea of Stories to understand how each text explores the physical and spiritual journeys of our core selves. Students will focus on building strong arguments and supporting them with rich textual support in a series of small analytical pieces that make use of a variety of critical lenses before crafting a full-length, critical essay on a topic of their choosing."
+    - name: "Narrative and Argumentation"
+      prereqs: "Introduction to Literary Studies"
+      description: "Students will read small-form prose (short stories, micro-memoir, etc.), poetry from a variety of authors and time periods, and a selection of dramatic work by William Shakespeare as part of their exploration of how writers use their chosen forms in unique ways to communicate rich stories of self-discovery and social commentary. They will shape and challenge their interpretations of these varied texts through performance exercises, collaborative critical writing exercises, and the production of their own creative work."
+    - name: "Portfolio"
+      prereqs: "Introduction to Literary Studies and Narrative and Argumentation"
+      description: "This is the culminating section of the English I course of study. Students will bring the skills and knowledge they gained (as well as several pieces of writing) from the previous two sections of English I to bear on the creation of a portfolio of critical and creative work that focuses on contrastive analysis, adaptation, and literary criticism. Texts for this section will include Martha Wells' All Systems Red and exemplars from a variety of sources to guide student composition and revision."
+
+- id: english-ii
+  name: "English II: Literature in the World"
+  blocks: "3"
+  grade_levels: [10]
+  prereqs: "English I"
+  coreqs: "None"
+  description: "During the second year of required English, students explore our literary heritage in English from the Middle Ages to the present post-colonial world. Students learn how to write analytical essays that connect form to meaning. Building knowledge of literary terms and increasing general vocabulary lay a foundation for the practice of clear, effective writing."
+  modules:
+    - name: "Writing Mechanics and Global Literature"
+      required: true
+      description: "This course pairs intensive grammar instruction with reading and analyzing Chimamanda Ngozi Adichie's Purple Hibiscus (summer text) and selected short stories. Students will learn to write with greater grammatical correctness so that they can express ideas more precisely in their academic and future professional careers. Reading the novel and short stories will provide contemporary cultural topics for the students to write about. These students conduct biographical research on individual authors."
+    - name: "Writing with Style About Global Literature"
+      description: "Students who test out of Writing Mechanics cultivate their prose style in this workshop-style course where they read and respond to each other's writing, in addition to receiving feedback from their teacher. Reading Chimamanda Ngozi Adichie's Purple Hibiscus (summer text) and selected short stories will provide contemporary cultural topics for student writing. These students conduct biographical research on individual authors. Can substitute for Writing Mechanics and Global Literature—required."
+    - name: "Shakespeare Through Performance II"
+      required: true
+      description: "Students will study one of Shakespeare's plays through reading and writing and through performances presented to the wider school community. Through analytical and imaginative pieces, they will examine Shakespeare's use of language and dramatic conventions. They will gain a fuller appreciation of Shakespeare's meaning through rehearsing and performing selected monologues and sonnets."
+    - name: "Literary Masterpieces: Jane Eyre"
+      prereqs: "Writing Mechanics and Global Literature"
+      description: "Students will study Charlotte Brontë's novel Jane Eyre. Close reading of the text, vocabulary building, and learning about the social history of Britain will enhance students' understanding of this work. Students will demonstrate their understanding primarily through analytical essays."
+    - name: "Literary Masterpieces: Satire in Chaucer and Austen"
+      prereqs: "Writing Mechanics and Global Literature"
+      description: "Students will study the social satire of Chaucer's Canterbury Tales and Austen's Pride and Prejudice. Close reading of the texts, vocabulary building, and researching social history will enhance students' understanding of these two works and the function of satire. Students will demonstrate their understanding primarily through analytical essays."
+    - name: "Literary Masterpieces: Poetry"
+      prereqs: "Writing Mechanics and Global Literature"
+      description: "Students will read works by John Keats and Elizabeth Barrett Browning, two prominent 19th-century English poets. Students will learn strategies for discovering meaning in the selected poems through close attention to literary devices and through the viewing of two feature films, Bright Star (2009) and The Barretts of Wimpole Street (1934), that dramatize these two poets' famous life stories. Students will demonstrate their understanding through expressive recitation and analytical essays."
+
+- id: english-iii
+  name: "English III: American Literature"
+  blocks: "3"
+  grade_levels: [11]
+  prereqs: "English I & English II"
+  prereq_note: "Open to grade 11, though seniors may take 1 block as an English IV choice."
+  coreqs: "None"
+  description: "English III offers a thematic approach to American Literature, introducing students to a variety of texts from major literary movements and historical periods. In both their writing and in-class discussions, students practice close textual analysis that develops increased skill in the interpretation of literary techniques and rhetorical strategies. Students conduct research on American authors and poets to synthesize literary criticism and other sources with their own original arguments. Some students may choose to take the AP English Language and Composition exam in May of their junior year."
+  modules:
+    - name: "Feminist Perspectives"
+      description: "This course will focus on fiction that depicts the changing role of women spanning the seventeenth to the mid-twentieth century. It will explore the obstacles, both internal and external, women faced in defining their own lives. Students will read Nathaniel Hawthorne's The Scarlet Letter, Toni Morrison's Sula, and selected short stories from Charlotte Perkins Gilman. Since the American Gothic tradition is a common element among these texts, students will explore how it arose to navigate and challenge social limitations. Student writing will focus on literary analysis presenting an original interpretive argument."
+    - name: "American Modernism"
+      description: "In this course students will examine how Modernist writers questioned or outright denied assurances provided by religion, politics, social norms, and traditional forms of art. The course will also examine how these writers processed World Wars I and II and how Modern art intersects with literature. Texts include poetry of the Harlem Renaissance, F. Scott Fitzgerald's The Great Gatsby, stories from Hemingway's In Our Time, and Kate Chopin's The Awakening. Student writing will focus on literary analysis presenting an original interpretive argument."
+    - name: "The Literary Memoir"
+      description: "In this course, students will interrogate the American experience through the lenses of memoir and personal essay. Texts include Maxine Hong Kingston's Woman Warrior along with contributions from writers like Leslie Marmon Silko, Joan Didion, Jhumpa Lahiri, Jamaica Kincaid, and James Baldwin. Students will learn to write analytically and creatively about identity formation from a multicultural perspective. In addition to analytical writing, students will develop a creative nonfiction essay that parlays into their college application essay process."
+    - name: "The Rhetoric of Equality"
+      required: true
+      prereqs: "Any two of the modules below"
+      description: "(Required): Students will read and analyze Frederick Douglass' Narrative of the Life of Frederick Douglass (summer text), a novel from writers such as Toni Morrison, Ralph Ellison and Percival Everett and essays and speeches representing a range of voices in the struggle for civil rights in the United States. Along with close study of language and narrative techniques in the text themselves, students will learn their historical contexts by exploring related media. Students will learn how to defend an argument and use rhetorical devices and how to integrate literary criticism and other sources into their writing as part of a larger research paper."
+
+- id: english-iv
+  name: "English IV"
+  blocks: "3"
+  grade_levels: [12]
+  prereqs: "English I, English II, and English III"
+  prereq_note: "Students may take one English III module to satisfy this requirement—excluding The Rhetoric of Equality."
+  coreqs: "None"
+  description: "During the fourth year of required English, all students take three modules drawn from a broad range of offerings, including AP English Literature and Composition. Building upon the close, scholarly relationships with their peers and teachers during prior study, students flex and advance their skills in critical thinking and analytical and creative writing."
+  modules:
+    - name: "Expatriates in Paris"
+      description: "Paris in the early 20th century was a center of literary and artistic innovation, drawing many Americans and other foreigners who delighted in the beautiful surroundings and the creative environment. This course focuses on writers, painters, dancers, and musicians, many of whom we now call \"modernist.\" We begin with Hollywood's dreamy version of this world depicted in the 1951 film An American in Paris. We will then compare this romanticized version of expatriate writers' work to the reality by reading short stories from Ernest Hemingway's In Our Time and selections from Gertrude Stein's memoir The Autobiography of Alice B. Toklas, in addition to short selections by other authors. Through documentary films, art images, and video recordings, we will explore our responses to modernism in the visual and performing arts, with a special focus on Diaghilev's Ballets Russes. Finally, we end with the play Our Town, a modernist classic by Thornton Wilder, who was deeply influenced by the Parisian avant-garde."
+    - name: "Getting Medieval"
+      description: "In this module we will look closely at how medieval life has been constructed in various literary modes: romance, epic, travelogue, and historiography. We will consider the social and historical contexts of life in the Middle Ages and examine how medievalism continues to influence artistic production. Our means of investigation will be diverse: close reading, lively discussion, study of history and art, and creative and analytical writing. This course will challenge the student to develop an even richer, more precise vocabulary, and to stretch and synthesize the student's knowledge of history, religion, art, and philosophy. Texts may include, but are not limited to: Beowulf, The Book of Margery Kempe, The Travels of Ibn Battutah, the Scivias of Hildegard von Bingen, and Sir Gawain and the Green Knight."
+    - name: "Mother, May I?"
+      description: "People have always told stories in order to explain or make sense of the world around them. Science, in some way, has often sought to prove or disprove those same stories. In Mary Shelley's Frankenstein, the collision between the stories we tell ourselves about the mystery of life and the science behind its creation is both sublime and terrifying. This course will approach one of the most famous horror stories of all time from a literary, psychological, and scientific perspective. Students will also consider the influence of Shelley's cadre of literary friends and family on her own work. Throughout, students will hone their research, analytical, and creative writing skills. Texts include Mary Shelley's Frankenstein and selections from Mary Wollstonecraft's A Vindication of the Rights of Woman. Students will also explore the work of William Blake, Percy Bysshe Shelley, Samuel Taylor Coleridge, Anna Laetitia Barbauld, and George Gordon, Lord Byron."
+    - name: "Female Friendships"
+      description: "In Virginia Woolf's literary essay, A Room of One's Own, a simple phrase strikes the author: \"Chloe liked Olivia,\" and Woolf notes that \"perhaps for the first time in literature,\" a relationship between two women occupies the central arc of a novel. Nearly fifty years later, Toni Morrison ponders a similar ideal, when she asks in her foreword to Sula, \"What is friendship between women when unmediated by men?\" This course will attempt to answer Morrison's question by exploring how female friendships are represented in works by women writers. Are female protagonists and their subsequent relationships portrayed through the \"sad girl\"/\"mean girl\" trope, or do they act as mentors, confidantes, and spiritual leaders for one another? Ultimately, how do female friendships help shape identity? Students will read, analyze, and discourse on works from authors such as Virginia Woolf, Nella Larsen, Toni Morrison, Shirley Jackson, Elena Ferrante, Jane Austen, and Miriam Toews. Students will also investigate the portrayal of female friendships in contemporary media such as film and journalism, with the course culminating in their own self-reflective narrative on friendship and identity."
+    - name: "AI: Alternative Intelligences"
+      description: "What is sentience? We talk about these things in terms of cognitive, social, or emotional intelligence, but in this course, we will be more forthcoming about its core: the boundaries of personhood. So many of our stories exploring these concepts are precisely about intelligences that are inhuman (curiously often they are inhumane as well) that it is worth considering why. We will explore alternative intelligences: organic, inorganic, supernatural, and several things in between, and the role such entities play in our determination of what makes a person a person. Expect to see animals with opinions, killer computers, exasperated aliens, cyborgs with issues, plants bent on world domination, and maybe even some Endless beings that need to grow up a little. Possible texts might include Semiosis (Burke), Solaris (Lem), Speaker for the Dead (Card), Dawn (Butler), Binti (Okorafor) in addition to movies and other media like Ex Machina (2014), The Lego Movie (2014), and Neil Gaiman's Sandman series."
+    - name: "Poetry Writing Workshop"
+      description: "This course is structured as a workshop and focuses on poetry created by the class. Students will write a variety of poems—from formal sonnets and villanelles to pantoums and free verse poems—and participate in regular discussion of each other's work. Based on feedback from the class and teacher, and their own expanding expertise, they will then revise their work and compile it in a final portfolio. Students will also read and analyze a diverse selection of poems to broaden their knowledge and understanding of the vast array of poetic voices that exist throughout the world and across time. As a culmination of the course, students will have the opportunity to share their poetry with the Madeira community."
+
+- id: ap-english-lit
+  name: "AP English Literature and Composition"
+  blocks: "2"
+  grade_levels: [12]
+  prereqs: "Department approval"
+  coreqs: "None"
+  description: "This course offers students an introductory college-level curriculum and prepares them to take the AP English Literature exam in May. Students develop their skills in critical thinking, analytical writing, and close reading through daily discussion, diverse writing assignments, and AP exam practice. Texts will be drawn from a range of genres, including poetry, fiction and drama, and will represent major artistic statements of the periods ranging from the Renaissance to the Twentieth Century. For the third block of senior English, AP students will be enrolled in an English IV elective."
+
+- id: ise-1
+  name: "International Student English Year One (ISE 1)"
+  blocks: "3"
+  grade_levels: [9, 10]
+  prereqs: "None"
+  coreqs: "ISE1 I: Introduction to Madeira Scholarship must be completed prior to taking English I courses."
+  description: "This class is required for all first-year students in the International Student English Program. The course helps students acclimate to The Madeira School and to academic standards and practices in the United States. Students develop their familiarity with the tools available to them for their studies in English: dictionaries (bound and online), library reference and research databases, grammar resources, and course-management, word-processing, and presentation software. Throughout the course, students build their vocabulary and increase their oral communication skills through public speaking practice, interviews, group presentations, and frequent discussion of readings. The course also offers intensive instruction in writing, with a special focus on learning the process of composing the expository essay. Students practice prewriting, thesis construction, paragraph development, drafting, and revision. Additionally, students are taught to apply U.S. conventions of language and grammar outside the expository essay, in email, letters, resumes, creative writing, and presentations."
+  modules:
+    - name: "ISE1 I: Working with Literature"
+    - name: "ISE1 II: The Modes of Writing"
+    - name: "ISE1 III: Working with Research"
+
+- id: ise-2
+  name: "International Student English Year Two (ISE 2)"
+  blocks: "3"
+  grade_levels: [10, 11]
+  prereqs: "ISE 1"
+  coreqs: "None"
+  description: "This class is required for all second-year ISE students. Year Two allows students more time and instructor attention to develop grade-appropriate English reading and writing skills across the Madeira curriculum. The course emphasizes the development of composition skills through writing exercises that hone the use of correct grammar and punctuation. Additionally, students explore ways to craft more substantive thesis statements and build cohesive arguments as they use examples from their texts, employ correct citations, and frame conclusions that are more discovery than mere summary. They work closely with the instructor in drafting, editing, and rewriting assignments. Throughout the course, students further improve their reading comprehension by practicing annotation techniques and identifying significant passages in their texts for discussion. In the second block, rigorous attention is paid to the development of public speaking skills. Each module has a different content focus, though reading, writing, speaking and listening skills are developed and honed in each module."
+  modules:
+    - name: "ISE2 I: Madeira's School Values"
+    - name: "ISE2 II: Public Speaking"
+    - name: "ISE2 III: Literary Analysis: A Masterwork in English"

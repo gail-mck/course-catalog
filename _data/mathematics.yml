@@ -1,0 +1,212 @@
+- id: algebra-i
+  name: "Algebra I"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  description: "Students apply the basic concepts of arithmetic to the language of algebra and work with the structure and properties of the real number system. They learn to solve first- and second-degree equations, linear systems, and inequalities; they learn techniques of graphing and factoring; they work with polynomials, exponents, and radicals; and they set up and solve word problems. This course or its equivalent is a prerequisite for all subsequent courses in the department."
+
+- id: geometry
+  name: "Geometry"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Returning students—Algebra I; New students—by placement test"
+  coreqs: "None"
+  description: "Students learn to identify angle relationships, scale, proportion, triangle congruence, and similarity, how perpendicular and parallel relationships unify and extend earlier concepts, and how to apply new knowledge to applications in circles, polygons, and right triangles. Students learn how to compute the area of plane figures and apply trigonometric skills to problem-solving in their work with a variety of 2-D shapes. Students will apply principles of algebra with continued practice and reinforcement while also demonstrating increasing flexibility with coordinate geometry, building a strong foundation for success in higher mathematics."
+
+- id: algebra-ii
+  name: "Algebra II"
+  blocks: "3-4"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Returning Students – B+ or higher in Geometry leads to 3 Mods of Algebra II. New Students - by placement test."
+  coreqs: "None"
+  description: "This course extends the algebraic principles learned in Algebra I, including an exploration of different number systems such as radical and complex numbers. Students will study the algebraic and graphical properties of a wide variety of functions including quadratic, polynomial functions, radical, rational, trigonometric, exponential and logarithmic. Additionally, foundational geometry concepts will be extended in order to address right-triangle relationships, the unit circle, equations with and graphs of all six trigonometric functions, sinusoidal motions, inverse trigonometric functions, identities, double-angle formulas, and half-angle formulas."
+
+- id: extended-algebra-ii
+  name: "Extended Algebra II"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Returning Students - Geometry A or higher and department approval. New Students - by placement test and the Academic Dean and Math Department Chair's approval."
+  coreqs: "None"
+  description: "The course assumes a strong mastery of the material in Algebra I and an ability to manage material at a faster pace than is offered in Algebra II. The course will broaden a student's understanding of foundation topics while applying these topics to more complex problems. New topics such as polynomial, logarithmic, and rational numbers will be studied. In addition, students will learn skills in abstract reasoning and quantitative thinking with non-traditional problems as well as exploring the full capabilities of the graphing calculator. Finally, foundational geometry concepts will be extended in order to address right-triangle relationships, the unit circle, equations with and graphs of all six trigonometric functions, sinusoidal motions, inverse trigonometric functions, identities, double-angle formulas, and half-angle formulas."
+
+- id: precalculus
+  name: "Precalculus"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Returning Students - Algebra II with a B-. New Students - by placement test and the Academic Dean and Math Department Chair's approval."
+  coreqs: "None"
+  description: "This course focuses on extending topics from Algebra II, including quadratic, polynomial, radical, rational, exponential and logarithmic functions. New units, such as conic sections, sequences and series, limits, and the definition of the derivative will be introduced. This course is designed for students who will proceed to the concepts in Calculus."
+
+- id: extended-precalculus
+  name: "Extended Precalculus"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Returning Students – Extended Algebra II with an A and department approval. Algebra II students with an A or above, and department approval. New Students - by placement test and the Academic Dean and Math Department Chair's approval."
+  coreqs: "None"
+  description: "This course provides an introduction to higher mathematics and helps to develop the skills and study habits necessary for a rigorous math program. This course will continue to expand on topics from Advanced Algebra II, including rational, trigonometric exponential and logarithmic functions. New units, such as conic sections, sequences and series, limits, vectors, parametric and polar equations and derivatives will be introduced. This course is designed to prepare students for AP Calculus."
+
+- id: calculus
+  name: "Calculus"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Returning Students - Trigonometry, Precalculus with a B- or higher, or Extended Precalculus. New Students - by placement test and the Academic Dean and Math Department Chair's approval."
+  coreqs: "None"
+  description: "This course provides an introduction to first-year college calculus. Topics will include a review of functions, limits, continuity, rates of change, the derivative, and integration. Emphasis is on understanding of concepts and mechanical manipulation."
+
+- id: ap-calculus-ab
+  name: "AP Calculus AB"
+  blocks: "3"
+  grade_levels: [10, 11, 12]
+  prereqs: "Extended Precalculus with a B or higher, Precalculus with an A or higher, or Calculus, and department approval."
+  coreqs: "None"
+  description: "This course continues the path to higher mathematics and helps to develop the skills and study habits necessary for a rigorous math program. Students explore differential and integral calculus and their applications while learning to approach problems from a variety of perspectives—graphical, analytical, numerical, and verbal. Technology is used to explore the behaviors of functions and to make connections with analytic procedures. Students are prepared to sit for the Advanced Placement Calculus AB exam in the spring."
+
+- id: ap-calculus-bc
+  name: "AP Calculus BC"
+  blocks: "3-4"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Extended Precalculus with an A or higher, AP Calculus AB with a B or higher, and department approval. Students who complete AP Calculus AB prior to taking this course may elect not to take the first block of BC."
+  coreqs: "None"
+  description: "In this rigorous course, students review the topics covered in Calculus AB, extend the procedures learned to include more sophisticated integration methods, and explore vectors, parametric and polar functions, and techniques in solving differential equations. Students analyze the behavior of sequences and series beyond arithmetic and geometric ones, with particular attention to divergence, convergence, intervals of convergence, and various test methods. Technology is used, particularly the programmable capabilities of the calculator, to simulate real-life applications of the concepts and to enhance understanding. Students are prepared to sit for the Advanced Placement Calculus BC exam in the spring."
+
+- id: multivariable-calculus
+  name: "Multivariable Calculus"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "AP Calculus BC or AP Calculus AB with a B+ or higher."
+  coreqs: "None"
+  notes: "This course will be offered on a rotating basis with Linear Algebra and Differential Equations and will be offered in '27-'28."
+  description: "This course provides an introduction to multivariable and vector calculus. The course covers vectors and analytic geometry in three dimensions, partial differentiation, multiple integration, and ends with vector calculus topics that build up to Green's, Stokes', and the Divergence Theorem. Students develop new problem-solving and critical reasoning skills to prepare them for further study in mathematics, the physical sciences, or engineering. Topics include surfaces in three-dimensional space, algebraic and geometric properties of vectors and vector functions in two and three dimensions, dot products and cross products, derivatives and integrals of vector functions, partial derivatives of functions of several variables, directional derivatives and gradients of scalar functions, multiple variable maximum and minimum value problems, double and triple integrals, line integrals, Green's theorem, and Stoke's theorem."
+
+- id: linear-algebra
+  name: "Linear Algebra"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "AP Calculus BC or AP Calculus AB with a B+ or higher."
+  coreqs: "None"
+  notes: "This course will be offered on a rotating basis with Multivariable Calculus and Differential Equations and will be offered in '25–'26."
+  description: "This course provides a study of computational and proof techniques of matrix algebra and an introduction to vector spaces. It pushes students to ask questions and communicate mathematical thinking. Topics covered include matrix algebra, systems of linear equations, eigenvalues and eigenvectors, least squares, vector spaces, inner products, and introduction to numerical techniques, and applications of linear algebra. Students also explore linear transformations, matrix representations of a linear transformation, characteristics and minimal polynomials, and diagonalization of a matrix."
+
+- id: differential-equations
+  name: "Differential Equations"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "AP Calculus BC or AP Calculus AB with a B+ or higher"
+  coreqs: "None"
+  notes: "This course will be offered on a rotating basis with Linear Algebra and Multivariable Calculus and will be offered in '26–'27."
+  description: "This course introduces first order differential equations and systems, second and higher order linear equations, solutions by series and Laplace transform, and applications. Students develop new problem-solving and critical reasoning skills preparing them for further study in mathematics, the physical sciences, or engineering. The course covers initial value problems, solution curves, separable and exact equations, linear and nonlinear models of first order ODEs, non/homogeneous linear equations with constant coefficients, the reduction of order, undetermined coefficients, variation of parameters, Cauchy-Euler equations, Green's Functions, Spring/Mass systems, Series circuit analogues, Laplace Transforms, The Transforms of Derivatives, Operational Properties, The Dirac Delta Function, Systems of Linear Differential Equations, Inverse Transforms, Power Series, and Solutions about Ordinary and Singular Points."
+
+- id: computer-science-i
+  name: "Computer Science I"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Algebra I"
+  coreqs: "None"
+  notes: "Meets Interdisciplinary and Coding credit."
+  description: "A first look at computer programming in Python. This course will take a project-based approach to developing essential programming skills. Students will write programs using variables, user interaction, basic data structures, conditional and logical control structures, functions, and other topics in modern Python programming. With this strong foundation, \"Advanced Programming\" courses are open to interested students following completion."
+
+- id: computer-science-ii
+  name: "Computer Science II"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Computer Science 1 or Placement test."
+  coreqs: "None"
+  notes: "Meets the Design Thinking and coding credit."
+  description: "Building upon the topics from Computer Science I, Computer Science II takes a project-based approach to developing more advanced programming skills. In addition to the topics covered in Computer Science I, students will work with complex data structures, write programs that read from and write to external files, define classes for use in object-oriented programming, and explore other topics in modern Python programming."
+
+- id: computer-science-iii
+  name: "Computer Science III"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Computer Science 2 or Placement test."
+  coreqs: "None"
+  notes: "Meets the Design Thinking credit."
+  description: "Building upon the topics from Computer Science I and II, Computer Science III students will learn how to design, implement, evaluate, and iterate on complex problems with Python. Topics covered include advanced data structures and algorithms, different programming paradigms, software development best practices, project management methodologies, and design thinking as they develop real world programming skills. Through hands-on projects and group work, students will apply their knowledge to create fully executable computer programs solving real-world problems."
+
+- id: computer-science-seminar
+  name: "Computer Science Seminar"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Computer Science 3."
+  coreqs: "None"
+  notes: "Meets the Design Thinking credit."
+  description: "This culminating, student-directed and project-based computer science course combines all skills learned in Computer Science I, II, and III. Students will use programming skills and the design thinking process to identify real-world problems and create innovative solutions. By the end of this course students will have practical experience in developing real-world applications throughout all phases of the design cycle, from ideation to presentation and iteration."
+
+- id: engineering-for-robotics
+  name: "Engineering for Robotics"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  notes: "This course satisfies the coding and Design Thinking requirement. Also cross-listed in Science."
+  description: "This inquiry-based course will explore the Science, Technology, Engineering and pure Mathematics that undergirds the field of Robotics. Throughout this hands-on course, students will learn and experiment with electrical wiring, mechanical design and, programming to design and prototype working robots. Students will learn through videos, in-class demonstrations, and hands-on practice. Students will use the principles they learn in this course to solve and prototype solutions to real-world problems."
+
+- id: programming-for-robotics
+  name: "Programming for Robotics"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  notes: "This course satisfies the coding and Design Thinking requirement. Also cross-listed in Science."
+  description: "Robotics immerses students in the incredible innovation around the world in robotics and artificial intelligence. Students will learn the fundamentals of computer programming through the lens of robotics to solve real-world problems. This project-based course uses a combination of videos, in-class demonstrations and hands-on trial and error. Students will learn and implement computational thinking, the engineering design process and effective problem solving by programming robots using VEX simulation software in Python."
+
+- id: statistics-data-display
+  name: "Statistics: Data and Display"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Algebra II"
+  coreqs: "None"
+  description: "Students examine data on two fronts: how to analyze data using scatterplots and regression calculations, and how to display data to show relationships between variables. These displays will include dot plots, bar charts, stem and leaf diagrams, box plots and histograms. Students further learn when to use each of these displays optimally. This hands-on, project-based course will expose students to real uses of statistics and the role data plays in our fact-hungry culture. In addition to learning how to use tables and display data, students will learn and apply standardization and the normal curve."
+
+- id: statistics-probability
+  name: "Statistics: Probability"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Algebra II"
+  coreqs: "None"
+  description: "This course centers on the rules and applications of probability. Students will explore many facets of probability from games of chance to simulation to applications in fields as diverse as the internet and medicine. In addition to learning probability rules, permutations and combinations, students will use Venn diagrams, two-way tables and tree diagrams. Students will learn about conditional probabilities and independence. This hands-on, project-based course will expose students to the real uses of probability."
+
+- id: data-science
+  name: "Data Science"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Statistics: Data & Display or Computer Science I"
+  coreqs: "None"
+  description: "This course is designed to introduce students to the growing discipline of Data Science. This class will extend the topics learned in Data Science and use digital tools to collect, present, and analyze data. This course uses a project-based approach using real-world data with a focus on practical applications and analysis. There will be a focus on finding and communicating meaning in data and thinking critically about arguments based on data."
+
+- id: advanced-statistics
+  name: "Advanced Statistics"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Extended Algebra II, or Precalculus, or department approval."
+  coreqs: "None"
+  description: "This course introduces students to the major concepts about and tools for collecting and analyzing data. Particular focus on how statistics can be used to gain insight into relevant, real-world issues and be a tool to help solve problems in society. The course begins with a thorough examination of descriptive statistics including graphical and numeric methods for describing data, and observational study vs. experimental design. The next topics include probability, random variables and probability distributions. The course then moves into inferential statistics, covering sampling distributions, confidence intervals and hypothesis testing for single samples and two populations or treatments. Finally, homogeneity, linear regression and inferences about correlation are examined."
+
+- id: applied-math-personal-finance
+  name: "Applied Mathematics: Personal Finance"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Algebra II"
+  coreqs: "None"
+  notes: "Meets Design Thinking credit."
+  description: "In this course students will look at the mathematics of personal finance including budgeting, mortgages and taxation. In learning the mathematics of personal finance students will explore mathematical concepts such as exponential functions, sequences and series, and statistics."
+
+- id: applied-math-financial-mathematics
+  name: "Applied Mathematics: Financial Mathematics"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Algebra II"
+  coreqs: "None"
+  notes: "Meets Design Thinking credit."
+  description: "Investing. In this course students will look at the mathematics of personal finance including savings accounts, stocks, bonds, and other financial savings instruments. In learning the mathematics of personal finance students will explore mathematical concepts such as exponential functions, sequences and series, and statistics."
+
+- id: robotics-team
+  name: "Robotics (Evening)"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  schedule: "E-Block Activity. Tuesdays from 5:45-6:45 p.m., Mods 1-7. Additional hours required for weekend build days and competition weeks."
+  notes: "E-block activities do not meet the D block activity requirements. E Block activities will receive Credit or No Credit. Students on Varsity teams (Field Hockey, Basketball, Volleyball, Swim, Tennis, Swim, and Diving) should not sign up for Robotics as the time requirements overlap. Meets Design Thinking credit."
+  description: "Robo Escargot is Madeira's VEX V5 competitive team. Students who join the team will build both engineering and programming skills before primarily specializing in either the build or auton division. The build division specializes in designing, iterating, and building the physical robot body, while the auton division specializes in programming the robot to run self-directed on competition courses. In addition to weekly meetings, the team competes regularly in regional tournaments and competitions. Students who have taken Programming for Robotics or Engineering for Robotics are automatically considered for leadership positions within the team."

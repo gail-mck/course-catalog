@@ -1,0 +1,124 @@
+- id: comparative-global-studies-i
+  name: "Comparative Global Studies I"
+  blocks: "3"
+  grade_levels: [9]
+  prereqs: "None"
+  coreqs: "None"
+  description: "The Comparative Global Studies I course invites students to consider what it means to be a member of our global community. Students will explore their place in the world through a skills-intensive and multi-disciplinary regional studies curriculum. Course work will draw from the histories of Africa, Asia, Latin America, and the Middle East and will focus on regional interactions as well as the origins of cultural foundations. Students will be introduced to research, analytical writing, and source evaluation. This course is committed to global citizenship and excellence in the humanities, which asks students to think critically and independently and form a deeper awareness of self and others in the world."
+
+- id: comparative-global-studies-ii
+  name: "Comparative Global Studies II"
+  blocks: "3"
+  grade_levels: [10]
+  prereqs: "Comparative Global Studies I. New 10th graders: an equivalent 9th grade history course."
+  coreqs: "None"
+  description: "Comparative Global Studies II continues the regional study of Africa, Asia, Latin America, and the Middle East through the lens of global politics, revolution, and human rights. Students will explore the historical patterns and political foundations that shape our world today in order to become confident, informed, and active participants in the 21st-century. Students will refine a repertoire of academic skills including critical reading, analytical writing, and source evaluation. The course concludes with a comparative research seminar, for which students will write an analytical paper based on their independent study and research."
+
+- id: us-history
+  name: "U.S. History"
+  blocks: "4"
+  grade_levels: [11]
+  prereqs: "Comparative Global Studies II. New 11th graders: an equivalent 10th grade history course."
+  coreqs: "None"
+  description: "Since a large part of understanding who we are and what we aspire to be requires an awareness of what has come before us, this course will provide the material to help Madeira students identify their place in the narrative of United States history. Students will continue to develop the skills established during their history coursework from 9th and 10th grade, including critical analysis of primary and secondary sources; oral expression in the form of classroom discussion, debates, and role playing in historical simulations; analysis and expression in essays and short answer questions; and in-depth historical research techniques. The first module will provide students with a working knowledge of how the U.S. government functions and what role Capitol Hill plays. One module will provide Juniors with the skills necessary to thrive in a congressional office, including oral and written skills, awareness of current events, and the research skills necessary for completing the Co-Curriculum Capstone Project."
+  modules:
+    - name: "US History: American Revolution and U.S. Constitution"
+      description: "Students will examine the causes of American independence and the formation of a new nation. In addition, students will learn the workings of the current U.S. government, with particular emphasis on the role of Congress. Students will also practice the writing and historical skills they learned in Comparative Global Studies II."
+    - name: "US History: American Empire"
+      prereqs: "American Revolution and the Constitution"
+      description: "Students will examine how the United States went from a small, isolationist nation to a major world power by looking at diplomacy and wars. The course will cover dispossession of Indigenous lands, continental and overseas expansion, U.S. involvement in World Wars I + II, and the Cold War."
+    - name: "U.S. History: Race in America"
+      prereqs: "American Revolution and the Constitution"
+      description: "Students will look at the development of the American slave system and its impact on American society. Students also will examine the causes of the Civil War and its impact. Finally, students will evaluate the continuing efforts of people of color seeking equality in the United States."
+    - name: "US History: Class, Labor, and Political Economy"
+      prereqs: "American Revolution and the Constitution"
+      description: "Students trace the economic developments in the United States, including the First and Second Industrial Revolutions, the Great Depression, and the Affluent Society. The capstone project will focus on a current question of U.S. economic policy."
+
+- id: capstone-chocolate-city
+  name: "Capstone Seminar: Chocolate City — DC History"
+  blocks: "2"
+  grade_levels: [12]
+  prereqs: "U.S. History"
+  coreqs: "Capstone Research Seminar"
+  notes: "History Capstone Seminar: 2-block course + Capstone Research Seminar. 3-block course total. Open to 12th graders."
+  description: "Ever wondered why DC is the city we know and love? In this class we will explore Washington, D.C. beyond the monuments and politics to learn about the people and movements that shaped the city. From the Indigenous communities who first called this land home to the fight for DC statehood today, we'll dive deep into the city's struggles and triumphs. Together we will unpack how race, culture, and power have defined DC's neighborhoods, experience its vibrant history firsthand on field trips to the city, and unravel how life in DC affects those who live in the shadow of the federal government. We will finish with student-led classes where you become the expert, tackling modern issues like gentrification, housing, political activism, and more. This is a microhistory—your opportunity to see how one city reflects and contradicts your current understanding of American history, through the lenses of identity and sociology. As a Capstone Seminar, students can expect discussion, potential field trips, and college-level workloads."
+
+- id: capstone-global-justice
+  name: "Capstone Seminar: Global Justice in a World of Difference"
+  blocks: "2"
+  grade_levels: [12]
+  prereqs: "U.S. History"
+  coreqs: "Capstone Research Seminar"
+  notes: "History Capstone Seminar: 2-block course + Capstone Research Seminar. 3-block course total. Open to 12th graders."
+  description: "Explores the question \"What do we owe to others in a world of difference?\" Beginning with philosophies of justice from around the world, starting with pre-modern philosophers such as Aristotle, Mencius, and African ethicists. Moving to a study of 20th century philosophers such as John Rawls, Brooke Ackerly, and Audre Lorde. Ending the first Mod with an exploration of intersectional feminist philosophy from South Asia, East Asia, Central America, and Africa. Building on philosophies of justice and intersectional feminisms, we explore a case study where we apply theories of justice to a student-selected \"hardest case of injustice.\" Central to our journey will be discussions of the following core concepts: philosophical concepts of duty, transnational feminisms, cultural identity, racism, global structures of power, and resistance. Students develop the skills to become confident, informed, and active participants in the 21st century and will read from a variety of college-level sources (in addition to art, poetry, and music). As a Capstone seminar, students can expect discussion and college-level workloads with emphasis on habits of \"head, hand, and heart.\""
+
+- id: capstone-middle-east
+  name: "Capstone Seminar: Middle East in Modern Memory"
+  blocks: "2"
+  grade_levels: [12]
+  prereqs: "U.S. History"
+  coreqs: "Capstone Research Seminar"
+  notes: "History Capstone Seminar: 2-block course + Capstone Research Seminar. 3-block course total. Open to 12th graders."
+  description: "The Middle East in Modern Memory begins from a point of disagreement, namely localized intersectoral conflicts that arise due to global pressures. We will begin by outlining the major sociological points of conflict in west Asia in contemporary times and trace their points of disconnection and disruption to understand the region's beauty and complexity. Our work together will include in-depth exploration of the Israeli/Palestinian conflict, the Armenian Conflict with both Turkey and Azerbaijan, the Kurdish issue over statehood, and the Iranian conflict with the west. In each case students will seek to understand the complexities of the topic as well as how the tensions affect ordinary people and their identities. The Middle East in Modern Memory will provide a college-level introduction to the Modern Middle East while at the same time allowing students to explore the nature and evolution of personal, religious, gender, and cultural identity. Students can expect to read a variety of sources, watch films, and write expository essays. As a Capstone seminar, discussion and college-level workloads as well as exposure to thought leaders, peers from the region, and policy practitioners will be central to the course."
+
+- id: senior-history-capitalism
+  name: "Senior History: Capitalism and Its Critics"
+  blocks: "1-2"
+  grade_levels: [12]
+  prereqs: "U.S. History"
+  coreqs: "None"
+  notes: "Students can elect to take any 1-mod History course as a standalone Senior History Course or with the History Research Seminar."
+  description: "Capitalism shapes our world and worldview so completely that it has become as omnipresent as air. This course explores the evolution of capitalism as an economic system and provides a chance to study historical critiques of capitalism from the \"right\" and the \"left.\" As Robert Heilbroner (the author of the book we will read) stated: \"If socialism failed, it was for political, more than economic, reasons; and if capitalism is to succeed it will be because it finds the political will and means to tame its economic forces.\" Additionally, we will explore some of the major works of economic philosophy. The course culminates with each student completing a small research project exploring a current issue related to the application of capitalism."
+
+- id: senior-history-genocide
+  name: "Senior History: Genocide and Moral Duty"
+  blocks: "1-2"
+  grade_levels: [12]
+  prereqs: "U.S. History"
+  coreqs: "None"
+  notes: "Students can elect to take any 1-mod History course as a standalone Senior History Course or with the History Research Seminar."
+  description: "Genocide and Moral Duty explores student-selected historical & ongoing case studies while analyzing the moral responsibilities of individuals, nations, and international institutions. Through primary sources, philosophical texts, and contemporary debates, the course challenges students to consider the limits of justice, memory, and intervention. We will also devote significant time to recent efforts to anticipate and prevent mass atrocities globally. Ultimately, students will develop a deeper understanding of how history informs our ethical obligations in the face of crimes against humanity."
+
+- id: senior-history-gender
+  name: "Senior History: Gender, Sex, and Activism"
+  blocks: "1-2"
+  grade_levels: [12]
+  prereqs: "U.S. History"
+  coreqs: "None"
+  notes: "Students can elect to take any 1-mod History course as a standalone Senior History Course or with the History Research Seminar."
+  description: "When questions of equality, safety, belonging, and opportunity arise, shared identities can act as either unifying or dividing factors. This course will examine the ways in which gender and sex brought groups together and highlighted their differences during the 20th Century. With a particular focus on women's and LGBTQ activist groups examined through primary sources, this course will explore activism organizations including NOW, the Lavender Menace, Gay Liberation Front, ACT UP, and the more than 100-year-old dispute between pro and anti-Equal Rights Amendment groups. Why is the ERA still unratified? Was the Michigan Womyns Music Festival a place of affirmation or exclusion? How did the AIDS crisis bring gay, addiction, and chronic illness communities together?"
+
+- id: senior-history-women-sports
+  name: "Senior History: Women, Sports, and American Popular Culture"
+  blocks: "1-2"
+  grade_levels: [12]
+  prereqs: "U.S. History"
+  coreqs: "None"
+  notes: "Students can elect to take any 1-mod History course as a standalone Senior History Course or with the History Research Seminar."
+  description: "Simone Biles. Caitlin Clark. Aja Wilson. Kate Ledecky. Megan Rapinoe. Breanna Stewart. Over the past few years, these women have become household names. However, that wasn't always the case. In 2024, both the National Women's Soccer League (NWSL) and Women's National Basketball Association (WNBA) had record breaking seasons regarding attendance, sponsorships, viewership, and impact. In fact, if American women were their own country, they would have ranked third in the medal count of the 2024 Paris Olympics. This jump in statistics did not occur in a vacuum. This class will explore the historical, current, and future path of women's sports and how it has impacted our culture, from the Liberty's \"Ellie the Elephant\" dancing in Barclay's Center, to fashion-tunnel walks, and discussions on trans athletes in sports."
+
+- id: research-seminar
+  name: "Research Seminar"
+  blocks: "1"
+  grade_levels: [12]
+  prereqs: "None"
+  coreqs: "None"
+  description: "1-block course; Open to Seniors."
+
+- id: capstone-research-seminar
+  name: "Capstone Research Seminar"
+  blocks: "1"
+  grade_levels: [12]
+  prereqs: "Capstone Seminar course"
+  coreqs: "None"
+  description: "Required research course to follow Capstone Seminar course."
+
+- id: global-youth-leadership-board
+  name: "Global Youth Leadership Board (Evening)"
+  blocks: "1 per section"
+  grade_levels: [11, 12]
+  prereqs: "Global Studies II"
+  coreqs: "None"
+  schedule: "E-Block Activity. Open to grades 11-12. On Mondays, from 6:30-8:30 p.m. Mods 1-6."
+  notes: "E block activities do not meet the D block activity requirements. E Block activities will receive Credit or No Credit."
+  description: "This evening workshop invites students to learn, reflect, and create as they explore global leadership and sustainable development. Students will engage with theories of development, intersectional and decentered feminist leadership models, and the concept of \"just responsibility\" in global justice. They will also learn how to design and sustain an NGO that reflects ethical, community-centered values. Through thoughtful reflection, students will examine decentered approaches to working with communities in the global south and consider how to use their educational privilege to foster mindful, equitable partnerships. They will participate in discussions on current events, development, travel, tourism, cultural geography, and global fragility, all while working toward the creation of a singular, sustainable NGO. Students can expect occasional readings featuring inspiring global change-makers and opportunities to engage with local and international activists, as well as a handful of Madeira educators."

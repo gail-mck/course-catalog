@@ -1,0 +1,178 @@
+- id: biology
+  name: "Biology"
+  blocks: "3"
+  grade_levels: [9, 10]
+  prereqs: "None"
+  coreqs: "None"
+  description: "Biology at Madeira is a foundational course that introduces the science skills that students will develop and use throughout high school. Students will study the process of science and will survey the study of life. Laboratory exercises will be performed to reinforce concepts, and current events will be used to supplement discussions of biological issues. Topics may include (but are not limited to) chemistry and biochemistry, cell types, cellular structure and function, cell division, genetics, DNA/RNA/protein synthesis, biotechnology, evolution, diversity of life, and ecology."
+
+- id: applied-chemistry
+  name: "Applied Chemistry"
+  blocks: "3"
+  grade_levels: [11, 12]
+  prereqs: "Biology."
+  coreqs: "None"
+  description: "Applied Chemistry includes one mod of Chemistry I plus two mods that expand on the foundation of chemistry concepts by connecting to real-world applications. The scientific, economic, and societal aspects of each topic will be investigated. Students will have the opportunity to explore their own areas of interest through research and presentations."
+  modules:
+    - name: "Chemistry I: Introduction to Chemistry"
+      required: true
+      description: "Topics will include atomic structure, elements, the periodic table and trends, bonding, molecular structures, kinetic theory, phases of matter, equilibrium, and writing and balancing reactions."
+    - name: "Applied Chemistry: Global Challenges"
+      description: "This course focuses on the chemistry of major global challenges of the past, present, and future. Topics covered may include, introductory organic chemistry, pesticides, infectious diseases, food and nutrition, dyes, pharmaceuticals, and more. May also be taken as a 1 block elective during Senior year."
+    - name: "Applied Chemistry: Modern Materials"
+      description: "This course focuses on the chemistry related to the development of significant modern materials and how they impacted world events. Topics covered may include introductory organic chemistry, dyes, textiles, pharmaceuticals, polymers, explosives, and more. May also be taken as a 1 block elective during Senior year."
+
+- id: chemistry
+  name: "Chemistry"
+  blocks: "3"
+  grade_levels: [10, 11, 12]
+  prereqs: "Biology and B+ or Higher in Geometry or Applied Physics."
+  coreqs: "Algebra II, or recommendation from the teacher."
+  description: "This course is intended to familiarize students with the fundamental concepts of chemistry as a physical science and includes chemical investigation through experimentation. This course requires the student to work with abstract concepts and requires considerable mathematical problem-solving skill. Topics covered in this course include organization of the periodic table, development of atomic theory and atomic structure, chemical bonding, writing and naming chemical compounds, classifying, balancing, and predicting products for chemical reactions, calculations with chemical quantities, intermolecular forces, the behavior of solids, liquids, gases, and solutions, chemical kinetics, chemical equilibrium, acid-base chemistry, and electrochemistry."
+
+- id: applied-physics
+  name: "Applied Physics"
+  blocks: "3"
+  grade_levels: [10, 11, 12]
+  prereqs: "Biology."
+  coreqs: "Geometry."
+  notes: "This course may be used to meet the Physics requirement for AP Biology but may not be used to meet the Physics requirement for AP Chemistry or AP Physics C."
+  description: "This project-based course is an introduction to the fundamental ideas of physics including applications to everyday experiences using concepts, mathematical calculations, and frequent hands-on applications. In their study of the physical universe, students will delve into many branches of physics, including matter and its motion, the nature of light, sound phenomena, electricity and magnetism. Mathematical calculations are used to enhance and describe ideas that are initially presented at a conceptual level."
+  modules:
+    - name: "Applied Physics 1: Forces and Motion"
+      description: "Topics include vectors, linear motion, projectiles, and Newton's Laws of Motion."
+    - name: "Applied Physics 2: Energy"
+      description: "Topics may include the study of uniform circular motion, universal gravitation, electricity and magnetism, conservation of energy and conservation of momentum."
+    - name: "Applied Physics 3: Simple Harmonic Motion and Waves"
+      description: "Topics may include simple harmonic motion, springs and spring forces, mechanical waves, sound, standing waves, and geometric optics."
+
+- id: physics
+  name: "Physics"
+  blocks: "3"
+  grade_levels: [11, 12]
+  prereqs: "Biology, Chemistry with a B– or higher."
+  coreqs: "Advanced Precalculus (or higher). If in Precalculus, permission required from Academic Dean and chair of the science department."
+  description: "The focus of Physics is to examine, explain, and analyze physical phenomena that occur in the world around us. New concepts are developed primarily through class discussion and laboratory work, and solving problems related to this material refines the understanding of these concepts. Students are expected to take responsibility for their own learning, both by working independently as well as with other students."
+
+- id: ap-biology
+  name: "AP Biology"
+  blocks: "3"
+  grade_levels: [11, 12]
+  prereqs: "Applied Chemistry or Chemistry, B- or Higher in Biology."
+  coreqs: "Physics"
+  description: "AP Biology is a college-level, comprehensive study of biology for students with a background in basic biology and chemistry and a strong interest in biology. This course covers topics introduced in a standard Biology course with greater complexity and at a faster pace. Topics include biochemistry, cell structure and function, cellular energetics, cell cycle, genetics, evolution, and ecology. Skills practiced include textbook reading at the college level, collaboration, research, data analysis, statistical methods, and experimental design. Learning activities during class include lectures, class discussions, laboratory demonstrations, and laboratory investigations. There will be independent and group work and students are expected to take responsibility for their own learning. AP Biology students are prepared to take the AP Biology exam in May."
+
+- id: ap-chemistry
+  name: "AP Chemistry"
+  blocks: "3"
+  grade_levels: [11, 12]
+  prereqs: "Biology, A- (or higher) in Chemistry, B+ (or higher) in Physics."
+  coreqs: "Physics"
+  description: "AP Chemistry is a college-level, comprehensive study of chemistry for students with advanced mathematical skills, a background in basic biology, chemistry, and physics, and a strong interest in chemistry. This course covers topics introduced in Chemistry with greater depth and sophistication and focuses on the more complex topics of thermodynamics, chemical kinetics, chemical equilibria, electrochemistry, and the behavior of matter at the molecular level. Lectures, class discussions, mathematical problem solving, demonstrations, and laboratory investigations are the primary methods of developing these and other topics. This course is taught like a college course and requires the students to take responsibility for their own learning. The course work includes abstract material, involves complex problem solving, and demands explanations of phenomena rather than simple statements of theories, trends, or observations. AP Chemistry students are prepared to take the AP Chemistry exam in May."
+
+- id: ap-physics-c
+  name: "AP Physics C: Mechanics"
+  blocks: "3"
+  grade_levels: [11, 12]
+  prereqs: "Biology, Chemistry and Physics"
+  coreqs: "AP Calculus BC or AB."
+  description: "Designed to prepare students for the AP Physics C exam, this is a calculus-based course in Mechanics. We will explore the concepts of kinematics, dynamics, energy, rotational motion, momentum and other applications of calculus to the physical world. New concepts will be developed through class, lab work, and experimental design. Students will work independently and in groups but are responsible for their own learning. AP Physics C students will be prepared to take the AP Physics C: Mechanics exam in May."
+
+- id: environmental-science-field-ecology
+  name: "Environmental Science: Field Ecology"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  description: "Students will apply hands-on field methods to address an environmental proposal in this lab-based course and should expect to be outside in the field (on campus) multiple times per week."
+
+- id: environmental-science-citizen-science
+  name: "Environmental Science: Citizen Science"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  description: "Students will learn the background, methodology, and skills needed to participate in ongoing citizen science projects with the result of contributing data to the scientific community in this lab-based course. Students should expect to be outside in the field (on- and/or off-campus) multiple times per week."
+
+- id: environmental-science-contemporary-issues
+  name: "Environmental Science: Contemporary Issues"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  description: "In this course, students will study the history, science, and policy issues related to current environmental matters. Topics covered will include a selection of the following: biodiversity; food, agriculture, and soil; water resource and pollution issues; solid waste disposal; fossil fuels; alternative energy resources; the atmosphere and air pollution; acid deposition; ozone depletion; and climate change. Students will play a role in determining which topics are covered during the module. The coursework will be supported by laboratory work. Students should expect to be outside (on campus) one time per week."
+
+- id: forensic-science
+  name: "Forensic Science"
+  blocks: "1-2"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  description: "This course is designed to give students the opportunity to learn how scientific principles are applied to fields such as law enforcement and anthropology. From fingerprints to DNA, bite marks to shoe prints, and blood spatter to trace evidence, forensic science requires the knowledge of biology, geology, botany, chemistry, and physics. Using a multidisciplinary and hands-on approach, students will learn the fundamentals of forensic science and develop logical problem-solving skills through both case studies and laboratory experiments."
+  modules:
+    - name: "Forensics: Biological Evidence"
+      description: "Topics may include hair and DNA analysis, blood spatter patterns, bones and bite marks, and toxicology."
+    - name: "Forensics: Physical Evidence"
+      description: "Topics may include crime scene analysis, police line-ups, types of evidence, microscopy, patterns & impressions of evidence, trace evidence, and handwriting analysis."
+
+- id: kinesiology
+  name: "Kinesiology: Functional Human Movement"
+  blocks: "1"
+  grade_levels: [10, 11, 12]
+  prereqs: "Biology."
+  coreqs: "None"
+  notes: "Meets Design Thinking credit."
+  description: "This course will introduce students to the fundamentals of human movement. Students will be able to identify major skeletal structures along with related articulations (joints) and landmarks of that system. Students will also gain an understanding of the muscular system related to movement and be able to comprehend concepts such as origin/insertion, agonist/antagonist, and concentric/eccentric movements."
+
+- id: marine-ecology
+  name: "Marine Ecology"
+  blocks: "1"
+  grade_levels: [10, 11, 12]
+  prereqs: "Biology"
+  coreqs: "None"
+  notes: "This course will be offered on a rotating basis ('24–'25) with Marine Environmental Issues and will include a required 3-day weekend field trip to the Chincoteague Bay Field Station occurring during the mod. Required field trip fee."
+  description: "Students will examine the taxonomy of life in the oceans, the characteristics that make marine organisms successful in this unique environment and will explore the varying ecologies of the world ocean."
+
+- id: marine-environmental-issues
+  name: "Marine Environmental Issues"
+  blocks: "1"
+  grade_levels: [10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  notes: "This course will be offered on a rotating basis with Marine Environmental Issues and will include a required 3-day weekend field trip to the Chincoteague Bay Field Station occurring during the mod. Required field trip fee."
+  description: "Students will investigate the current environmental issues that plague the marine habitat and its biodiversity in this project-based course."
+
+- id: bioorganic-chemistry
+  name: "Bioorganic Chemistry"
+  blocks: "1"
+  grade_levels: [11, 12]
+  prereqs: "Biology and Chemistry"
+  coreqs: "None"
+  description: "In this laboratory-based course, students will learn foundational organic chemistry including bond-line drawings, functional groups, and reaction mechanisms. Building on this knowledge, students will explore the structural, chemical, and functional properties of the major types of biomolecules, such as carbohydrates, proteins, nucleic acids, and lipids. As time allows, students may examine the mechanisms of major cellular processes, how drugs affect the body, and environmental implications of common organic molecules."
+
+- id: psychology-of-sport
+  name: "Psychology of Sport"
+  blocks: "1"
+  grade_levels: [10, 11, 12]
+  prereqs: "Must be competing/practicing on a Junior Varsity or Varsity athletic team at Madeira."
+  prereq_note: "Open to grades 10–12 in Mods 1-2; Open to grades 9-12 in Mods 6-7."
+  coreqs: "None"
+  description: "This course is designed to engage students in critical thinking as it applies to the study of human behavior in sport. Students will explore factors related to success and skill development in human performance, basic principles of confidence, motivation, and goal setting, as well as the prominent theories related to happiness and positive mood and how they relate to human performance and exercise. This course will also reference and apply the theoretical and empirical research pertaining to the psychological structure of performance."
+
+- id: engineering-for-robotics-science
+  name: "Engineering for Robotics"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  notes: "This course satisfies the coding and Design Thinking requirement. Also cross-listed in Mathematics."
+  description: "This inquiry-based course will explore the Science, Technology, Engineering and pure Mathematics that undergirds the field of Robotics. Throughout this hands-on course, students will learn and experiment with electrical wiring, mechanical design and, programming to design and prototype working robots. Students will learn through videos, in-class demonstrations, and hands-on practice. Students will use the principles they learn in this course to solve and prototype solutions to real-world problems."
+
+- id: programming-for-robotics-science
+  name: "Programming for Robotics"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  notes: "This course satisfies the coding and Interdisciplinary requirement. Also cross-listed in Mathematics."
+  description: "Robotics immerses students in the incredible innovation around the world in robotics and artificial intelligence. Students will learn the fundamentals of computer programming through the lens of robotics to solve real-world problems. This project-based course uses a combination of videos, in-class demonstrations and hands-on trial and error. Students will learn and implement computational thinking, the engineering design process and effective problem solving by programming robots using VEX simulation software in Python."

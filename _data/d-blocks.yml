@@ -1,0 +1,444 @@
+# ─────────────────────────────────────────
+# PERFORMING ARTS D-BLOCKS
+# ─────────────────────────────────────────
+
+- id: dance
+  name: "Dance"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "No prior dance experience required."
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: true
+  notes: "Madeira Dance Company (formally Select) requires an audition which takes place at the end of the Spring Season of the previous year for all returning students. For 11th and 12th graders, if you are a Madeira Dancer, you must attend D block during the season you are on Co-Curriculum (though not the mod in which you have your internship, unless your hours allow). All Madeira Dance Company members must be enrolled in at least 2 seasons of dance."
+  description: "Genres studied: Modern, hip hop, ballet, lyrical, jazz, and contemporary. 2 masterclasses offered each season in an even broader range of genre. During the first week evaluation classes will take place to assess which level the dancer will participate in."
+
+- id: play
+  name: "Play (Fall Production)"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Auditions are held during student orientation for actors. Students interested in stage management and assistant directing must seek prior approval from the Arts Department."
+  coreqs: "None"
+  season: "Fall"
+  movement: true
+  description: "The fall play offers students of various skill levels and experience the opportunity to participate in a fully-staged play as an actor or part of the stage management team."
+
+- id: musical
+  name: "Musical (Winter Production)"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Audition required for actors. Students interested in stage management and assistant directing must seek prior approval from the Arts Department."
+  coreqs: "None"
+  season: "Winter"
+  movement: true
+  description: "The winter musical is for students of all levels of skill and experience in musical theatre and stage managing. Students work as a collaborative ensemble with theatre professionals to rehearse and perform a musical theatre production."
+
+- id: theater-showcase
+  name: "Theater Showcase"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: true
+  description: "Theatre Showcase is open to all levels of experience. This D block is a unique opportunity for students to participate in a performance-based class without the pressure of auditions. The Theater Showcase gives students the chance to explore a variety of theatrical styles and develop their performance skills and technique. Topics covered include improvisation, physical theatre, scene study, stage combat and audition technique."
+
+# ─────────────────────────────────────────
+# PUBLICATIONS & MEDIA D-BLOCKS
+# ─────────────────────────────────────────
+
+- id: student-publications-spectator
+  name: "Student Publications: The Spectator"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: false
+  description: "Students will learn core principles of journalism including accuracy, accountability, fairness verification, and independence. Along the way, students will acquire practical skills in interviewing, reporting, and composing a variety of story types (such as news, feature, and editorial). Students can also expect to practice photography and arranging layouts using publishing programs like InDesign. Throughout each season, Spectator students will also explore case studies to build awareness of journalistic ethics. This is a hands-on educational experience where students learn to work as a newsroom team."
+
+- id: student-publications-gate
+  name: "Student Publications: GATE"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: false
+  description: "Students will acquire practical skills in design and layout (using programs like InDesign) and in learning the editorial process. They will also exercise their creativity in organizing Gate contributions according to theme, genre, concept, and/or style—in addition to serving as contributors themselves, should they wish. Gate staff will gain technical know-how and learn about the philosophical and ethical issues of publishing like censorship, anonymity, and managing the relationship between authors and editors. Students will also be responsible for marketing and outreach, and for identifying innovative ways of showcasing the publication such as podcasting, performance, and online publishing."
+
+- id: yearbook
+  name: "Yearbook"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter"
+  movement: false
+  description: "Yearbook exposes students to the variety of skills necessary for producing quality school publications. Participants are introduced to a variety of visual arts, including digital photography, the use of photo editors, and principles of layout design. In addition, students learn the basics of copywriting and journalism, including conducting interviews, and writing news stories, reviews and features. This is a hands-on educational experience, where students learn by doing. Students are given the responsibility of producing their own pages in the yearbook."
+
+- id: esports
+  name: "Esports"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall"
+  movement: false
+  notes: "Maximum of 10 students."
+  description: "The Madeira esports team fuses passion and opportunity to ensure students succeed in a competitive digital world. During this activity students will explore careers in digital industries, learn the fundamentals of live video streaming, and explore ethics and contemporary issues through a variety of different digital experiences and game styles. Students will develop skills in teamwork and problem solving helping to foster self-confidence and independent critical thinking while maintaining a healthy environment for competition through digital game play."
+
+# ─────────────────────────────────────────
+# ACADEMIC & INTEREST D-BLOCKS
+# ─────────────────────────────────────────
+
+- id: math-team
+  name: "Math Team"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall"
+  movement: false
+  description: "Students participate in math related challenges, activities, and competitions. No prior math or computer science knowledge is required, only an interest in learning and participating. Students may participate in math competitions."
+
+- id: model-un
+  name: "Model United Nations"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Winter"
+  movement: false
+  notes: "For students who elect to participate in outside conferences, there are additional fees not covered by Madeira."
+  description: "During their participation, Madeira students learn the basics of United Nations parliamentary procedure, how to write position and background papers, and how to advance committee agendas during active conference sessions. Madeira students may elect—as part of the Model UN experience—to participate in a high-school conference for Model United Nations."
+
+- id: nature-hikes
+  name: "Nature Hikes"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: true
+  description: "This activity takes advantage of our idyllic setting on the edge of the Potomac River. Students will explore a variety of trails on campus through the forest and down by Black Pond. There will be periodic trips to nearby parks including Scotts Run and Riverbend Park. Students will increase their knowledge about the natural species on our campus and beyond."
+
+- id: open-art-studio
+  name: "Open Art Studio"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: false
+  description: "Open Art Studio is an experience that allows students to explore a variety of media including drawing, painting, ceramics, sculpture, digital drawing, and more. Students will learn new techniques through workshops in different mediums and complete multiple larger projects. This D block is ideal for the student looking to further their visual art practice or just explore new techniques."
+
+- id: space-mission-exploration
+  name: "Space Mission Exploration"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: false
+  description: "Students will design their own space mission through an interdisciplinary lens. Students will consider the science, engineering, management, budget, and geopolitical requirements for the design and execution of a successful space mission. The D Block will be based on a simulation of the NASA project mission design process, from conceptual study, preliminary analysis, and definition to the design, development, and operational phases of a space mission."
+
+- id: global-activism
+  name: "Global Activism"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: false
+  description: "Students in Global Activism will discuss theories of change, explore the architecture and toolkit of protests around the world, meet with activists locally and globally, and, ultimately, design (from start to finish) a piece of activism related to art, justice, anti-poverty, anti-racism, immigration, indigenous land rights, the sex-gender system, planetary health, community change, or a topic of choice."
+
+# ─────────────────────────────────────────
+# FITNESS D-BLOCKS
+# ─────────────────────────────────────────
+
+- id: intro-fitness-strength
+  name: "Intro to Fitness & Strength Training"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: true
+  notes: "Roster Minimum: 4, Roster Maximum: 12."
+  description: "Students will be introduced to the basics of circuit training, weight training, and cardio training. Students will learn proper form and techniques that will allow them to develop independent workouts."
+
+- id: advanced-weight-training
+  name: "Advanced Weight Training"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Students must complete Intro to Fitness & Strength Training or Compete on a Varsity Team"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: true
+  notes: "Roster Minimum: 4, Roster Maximum: 12."
+  description: "Advanced Weight Training aims to illustrate our athletic philosophy by developing strong women who succeed at life. Strength builds confidence. Students will engage in free-weight training led by our Strength and Conditioning Coach using barbell, dumbbell, kettlebell, and medicine ball movements. Students will learn the value of consistent work to reach their maximum potential through the techniques of strength training."
+
+- id: pilates
+  name: "Pilates"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: true
+  notes: "Roster Minimum: 6, Roster Maximum: 14."
+  description: "Mat-based Pilates class focuses on strength, stability, posture, proper breath control, and flexibility. Each class will work to balance all muscle groups' strength and flexibility, with an emphasis on challenging the core muscles with each movement. Classes will be taught using slow, controlled movements."
+
+- id: yoga
+  name: "Yoga"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: true
+  notes: "Roster Minimum: 6, Roster Maximum: 14."
+  description: "A mat-based exercise class that uses a system of physical postures, breathing techniques, and meditation derived from Yoga to promote physical and emotional well-being."
+
+- id: self-defense-karate
+  name: "Self-Defense/Karate"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Winter"
+  movement: true
+  description: "While learning the skills necessary for self-protection, students will experience the benefits of increased physical fitness, better mental focus, enhanced self-confidence, and a more placid state of mind. They learn karate techniques utilizing the upper and lower body and learn to strike vital areas with elbows, knees, hands, and feet. Students will also learn how to fall and how to throw others in self-defense situations. The traditions of bowing, wearing the karate uniform (gi), and using special terminology will be practiced in the school (dojo) to create an atmosphere that promotes safety and respect for oneself, for one's classmates, and for the teacher (sensei)."
+
+# ─────────────────────────────────────────
+# ATHLETICS — INTERSCHOLASTIC TEAM SPORTS
+# ─────────────────────────────────────────
+
+- id: cross-country
+  name: "Cross Country"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall"
+  movement: true
+  notes: "Interscholastic team sport. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: field-hockey
+  name: "Field Hockey"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall"
+  movement: true
+  notes: "Varsity and JV teams. Tryouts open to the entire student body. Practice times: JV 3:00–4:30 pm, Varsity 4:00–6:00 pm, subject to change."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: soccer
+  name: "Soccer"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall"
+  movement: true
+  notes: "Varsity and JV teams. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: volleyball
+  name: "Volleyball"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall"
+  movement: true
+  notes: "Varsity and JV teams. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: tennis-fall
+  name: "Tennis (Fall)"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall"
+  movement: true
+  notes: "Varsity and JV teams. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: basketball
+  name: "Basketball"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Winter"
+  movement: true
+  notes: "Varsity and JV teams. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: rock-climbing
+  name: "Rock Climbing"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Winter"
+  movement: true
+  notes: "Varsity team. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: swimming-diving
+  name: "Swimming and Diving"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Winter"
+  movement: true
+  notes: "Varsity team. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: lacrosse
+  name: "Lacrosse"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: true
+  notes: "Varsity and JV teams. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: softball
+  name: "Softball"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: true
+  notes: "Varsity team. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: tennis-spring
+  name: "Tennis (Spring)"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: true
+  notes: "Varsity team. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: track-field
+  name: "Track and Field"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: true
+  notes: "Varsity team. Tryouts open to the entire student body."
+  description: "Madeira competes locally within the Independent School League (ISL) and regionally against other Independent and Public Schools. Students are expected to attend all games and practices, including weekend events to receive credit."
+
+- id: riding
+  name: "Riding"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: true
+  notes: "Meets Teams requirement. Students are scheduled for two lessons per week between the hours of 3:00 and 6:00. Students are required to provide their own helmet, boots and riding pants. There is an extra fee charged for the program. Students may enroll in riding during their Co-Curriculum placement but must attend riding lessons during their placement and meet all other attendance requirements. Typically, the school's horses have the capacity to safely carry up to 185 pounds. Boarding for student's horse is available. Applications are due May 1st. For 11th and 12th graders, if you are a rider and horse owner, you must attend D block during the season you are on Co-Curriculum. Riding has a maximum capacity of 35 riders per season."
+  description: "Based on the American Forward Riding System, the program goal is to develop confidence, riding skill, and knowledge of horse care. Supportive instruction is offered to students of all experience levels including those new to the sport. A robust calendar of competitions (including IEA, USEF and schooling shows), clinics and other activities are offered year-round."
+
+# ─────────────────────────────────────────
+# ATHLETICS — SKILL DEVELOPMENT
+# ─────────────────────────────────────────
+
+- id: swimming-conditioning
+  name: "Swimming for Conditioning"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Geared towards students that are advanced level swimmers or have completed one year on the varsity swim team."
+  coreqs: "None"
+  season: "Fall"
+  movement: true
+  notes: "Roster Minimum: 6, Roster Maximum: 20. This activity requires a student to be able to be in the pool each day (Mon–Fri) of the season."
+  description: "This course will cover the four main competitive strokes, turns, and will contain a rigorous workout."
+
+- id: mad-aquatics
+  name: "Mad Aquatics"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Geared toward Varsity level swimmers."
+  coreqs: "None"
+  season: "Spring"
+  movement: true
+  notes: "Roster Minimum: 4, Roster Maximum: 12. This activity requires a student to be able to be in the pool each day (Mon-Fri) of the season and participate in 2-3 weekend competitions in the spring."
+  description: "This course is geared toward Varsity level swimmers. This course will be similar in training to our varsity season."
+
+- id: tennis-101
+  name: "Tennis 101"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Spring"
+  movement: true
+  notes: "Roster Minimum: 4, Roster Maximum: 12. Players are required to supply their own racquets and shoes appropriate for tennis courts."
+  description: "This course introduces and develops the basic skill required to play tennis including the serve, forehand, backhand, volley, overhead and other specialty shots. Students will learn proper tennis etiquette, tennis specific warmup exercises, tennis match scoring, match warm up routines, and basic game strategies designed for recreational tennis match play."
+
+- id: advanced-tennis
+  name: "Advanced Tennis"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "Students must have a basic knowledge of the game and perform the basic strokes required for match play."
+  coreqs: "None"
+  season: "Spring"
+  movement: true
+  notes: "Roster Minimum: 4, Roster Maximum: 12. Players are required to supply their own racquets and shoes appropriate for tennis courts."
+  description: "This course develops higher level tennis skills and techniques and assumes players already possess the basic skill sets required for recreational tennis match play. After a review of basic skills, instruction will transition to the mental and physical attributes required to execute winning offensive and defensive strategies for both singles and doubles play. Drills and practice match play for singles will explore baseline, aggressive baseline, serve and volley, and all-court styles of play. Drills and practice match play for doubles will explore traditional one up/one back, the \"I\" formation, poaching, and both back styles of play."
+
+# ─────────────────────────────────────────
+# ATHLETICS — SUPPORT ROLES
+# ─────────────────────────────────────────
+
+- id: athletic-student-assistant
+  name: "Athletic Student Assistant"
+  blocks: "1 per season"
+  grade_levels: [10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: false
+  notes: "Maximum of 3 students for Varsity. Maximum of 2 students for JV."
+  description: "Athletic Team Student Assistant (SA) report to the designated sport specific practice location Monday–Friday for the duration of practice (potentially Saturday for ISL Play Days and Invitationals). SA will assist their team/coaching staff with the following tasks: taking attendance, game and event support, updating social media and filming competitions. SA must complete all scheduled team workouts each week."
+
+- id: athletic-sports-information-assistant
+  name: "Athletic Team Sports Information Assistant"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: false
+  notes: "Maximum of 3–4 students per season. SIA must complete at least 2–3 Breakaway workouts each week."
+  description: "To receive D-block credit the Athletic Team Sports Information Assistants (SIA) reports to the Athletic Director or Associate Athletic Director Monday–Friday for the duration of practice (potentially Saturday for ISL Play Days and Invitationals). SIA will assist the athletic department with the following tasks: creating social media content, creating pre and post-game graphics, running in-game livestream, updating social media and filming competitions, and posting game results."
+
+- id: athletic-training-assistant
+  name: "Athletic Training Student Assistant"
+  blocks: "1 per season"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: "None"
+  coreqs: "None"
+  season: "Fall, Winter, Spring"
+  movement: false
+  notes: "Maximum of 1 student per season. For students with an expressed interest in a sports medicine related field."
+  description: "The Athletic Training Student Assistant (ATSA) works with the Madeira Athletic Trainer daily with an expectation to observe and participate in duties connected with injury management. ATSA will learn basic anatomy and common mechanisms of injury. At the completion of each season, students are expected to demonstrate specific competencies based on areas of focus."
