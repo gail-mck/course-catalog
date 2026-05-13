@@ -1,8 +1,8 @@
 ---
-title: Science Department
+title: Design Thinking Courses
 ---
 
-{% assign courses = site.data.science %}
+{% assign courses = site.data.design-thinking %}
 
 <div class="course-grid">
 {% for course in courses %}

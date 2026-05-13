@@ -1,8 +1,8 @@
 ---
-title: Science Department
+title: Co-Curriculum Department
 ---
 
-{% assign courses = site.data.science %}
+{% assign courses = site.data.co-curriculum %}
 
 <div class="course-grid">
 {% for course in courses %}
