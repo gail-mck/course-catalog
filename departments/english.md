@@ -16,9 +16,7 @@ title: English Courses
     data-description="{{ course.description | escape }}">
     <strong>{{ course.name }}</strong>
     <p>{{ course.blocks }} block(s)</p>
-    {% if course.prereqs and course.prereqs != "None" %}
-      <p style="font-size:0.75rem; color: #999;">Prereq: {{ course.prereqs }}</p>
-    {% endif %}
+    <p style="font-size:0.75rem; color: #999;">Prereq: {{ course.prereqs }}</p>
   </div>
 {% endfor %}
 </div>
