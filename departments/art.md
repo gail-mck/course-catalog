@@ -1,5 +1,5 @@
 ---
-title: Arts Department
+title: Arts Courses
 ---
 
 {% assign courses = site.data.art %}

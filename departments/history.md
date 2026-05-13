@@ -1,5 +1,5 @@
 ---
-title: History Department
+title: History Courses
 ---
 
 {% assign courses = site.data.history %}

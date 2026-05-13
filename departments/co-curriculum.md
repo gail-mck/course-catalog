@@ -1,5 +1,5 @@
 ---
-title: Co-Curriculum Department
+title: Co-Curriculum Courses
 ---
 
 {% assign courses = site.data.co-curriculum %}
