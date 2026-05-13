@@ -9,7 +9,7 @@ title: Arts Courses
   <div class="course-card" data-id="{{ course.id }}">
     <strong>{{ course.name }}</strong>
     <p>{{ course.blocks }} Blocks</p>
-    <p>Prerequisite courses: {{ course.prereqs }} Blocks</p>
+    <p>Prerequisite courses: {{ course.prereqs }}</p>
   </div>
 {% endfor %}
 </div>
