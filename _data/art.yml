@@ -1,0 +1,190 @@
+# AI Generated given course catalog pdf
+
+- id: studio-art-drawing
+  name: "Studio Art: Drawing"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  description: "Foundation course covering design elements and principles through mark making, perspective drawing, and still-life composition."
+
+- id: studio-art-3d-design
+  name: "Studio Art: 3D Design"
+  blocks: "1-3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  description: "Students advance their understanding of 3-dimensional art across a variety of media using ceramic handbuilding, carving, modeling, fibers, textiles, and armature building."
+
+- id: programming-visual-arts
+  name: "Programming for the Visual Arts"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  notes: "Satisfies Coding and Interdisciplinary requirement."
+  description: "Introduction to computer programming using the Processing language in the context of visual arts. Covers basic coding techniques, computer graphics fundamentals, and interactive drawing programs."
+
+- id: design-arts-mediums
+  name: "Design Arts & Mediums"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  notes: "Satisfies Design Thinking requirement."
+  description: "Students develop skills using digital tools including Adobe Design Suite, TinkerCad, and Fusion360 for animation, digital illustration, graphic design, 3D modeling, and industrial design."
+
+- id: studio-art-painting
+  name: "Studio Art: Painting"
+  blocks: "1-3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: [studio-art-drawing]
+  coreqs: []
+  description: "Students advance painting skills in acrylics, watercolors, gouache, and mixed media."
+
+- id: studio-art-printmaking
+  name: "Studio Art: Printmaking"
+  blocks: "1-3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: [studio-art-drawing]
+  coreqs: []
+  description: "Students advance understanding of design elements through printmaking using collagraph, linoleum cut, drypoint, and relief printing."
+
+- id: studio-art-fashion-design
+  name: "Studio Art: Fashion Design & Fabrication"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: [studio-art-3d-design, studio-art-drawing]
+  prereq_note: "Studio Art: 3D Design OR Studio Art: Drawing"
+  coreqs: []
+  notes: "Meets Design Thinking credit and art credit."
+  description: "Students create a fashion collection using collaging, color theory, textile making, repeat pattern, and fashion rendering. Covers flat pattern making and garment construction."
+
+- id: studio-art-ceramics
+  name: "Studio Art: Ceramics"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: [studio-art-3d-design, studio-art-drawing]
+  prereq_note: "Studio Art: 3D Design OR Studio Art: Drawing"
+  coreqs: []
+  description: "Introduction to clay building, ceramic construction, and the firing process. Covers glaze and decoration, pinch, coil, slab, and wheel throwing."
+
+- id: studio-art-seminar
+  name: "Studio Art Seminar"
+  blocks: "3"
+  grade_levels: [10, 11, 12]
+  prereqs: []
+  prereq_note: "At least three blocks of Studio Art and/or Photography classes"
+  coreqs: []
+  description: "Advanced course in which students expand their artistic practice across media and develop depth within a chosen medium. Students work toward gallery displays, portfolios, an online presence, and an artist's resume."
+
+- id: photography-darkroom
+  name: "Photography: Darkroom"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  notes: "Meets Design Thinking and Art credit."
+  description: "Students learn to use a school-supplied 35mm SLR film camera, develop negatives, create contact sheets, and print photographs. Covers camera mechanics and composition fundamentals."
+
+- id: photography-digital
+  name: "Photography: Digital"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  notes: "Students must supply their own DSLR camera capable of Manual mode."
+  description: "Students learn to use their own DSLR camera in Manual mode, covering compositional techniques, Photoshop editing skills, and beginning portfolio development."
+
+- id: photography-alternative-processes
+  name: "Photography: Alternative Processes"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: [photography-darkroom, photography-digital]
+  prereq_note: "Darkroom or Digital Photography"
+  coreqs: []
+  notes: "Meets Design Thinking and art credit."
+  description: "Introduction to non-silver alternative photographic processes including Caffenol development and medium and large format processes. Covers safe chemistry usage, scanning, Photoshop manipulation, and contact printing."
+
+- id: acting-i
+  name: "Acting I: Acting Skills"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  description: "Students develop acting skills through ensemble work, monologues, scene work, and a mock audition. Focuses on script analysis, character development, and voice and body awareness."
+
+- id: acting-ii
+  name: "Acting II: Acting Styles"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: [acting-i]
+  prereq_note: "Acting I, participation in a theatre D block, or permission of the instructor"
+  coreqs: []
+  description: "Building on Acting I, students explore theatrical styles including Shakespeare, Restoration, and farce through warm-ups, voice and movement exercises, and scene work."
+
+- id: public-speaking
+  name: "Public Speaking"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  description: "Students learn techniques for authentic presentation including projection, articulation, body language, vocal tone, and eye contact. Course culminates in an Ignite-style speech."
+
+- id: audition-techniques
+  name: "Audition Techniques"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  description: "Develops skills for commanding the room in auditions or interviews through text analysis, monologues, and cold reads. Culminates in a mock audition."
+
+- id: directing
+  name: "Directing"
+  blocks: "1"
+  grade_levels: [10, 11, 12]
+  prereqs: []
+  coreqs: []
+  description: "Students develop directing skills through open scenes, contemporary scenes, and play planning. Covers research, text analysis, and collaborative exploration."
+
+- id: actors-voice
+  name: "The Actor's Voice"
+  blocks: "1"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: [acting-i]
+  prereq_note: "Acting I, participation in a theatre D block, or permission of the instructor"
+  coreqs: []
+  description: "Students expand vocal skills into voiceover techniques, character voices, and dialects using the international phonetic alphabet."
+
+- id: stagecraft
+  name: "Stagecraft"
+  blocks: "3"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  block_type: "e_block"
+  schedule: "Wednesdays, 6:30–9:00 pm, Mods 1–6. Additional hours required for show builds and tech weeks."
+  notes: "Earns three academic credits. Course may be repeated. Enrollment limited to 25. Meets Design Thinking and Art credits."
+  description: "Year-long hands-on course in technical theatre and production design covering scenic construction, painting, properties, costume construction, lighting, sound engineering, and technical drawing."
+
+- id: madeira-chorus
+  name: "Madeira Chorus"
+  blocks: "1 per section"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  block_type: "e_block"
+  schedule: "Mondays and Thursdays, 6:30–8:00 pm. Mods 1–2 (classical), 3–4 (contemporary/pop), 5–6 (Musical Theatre)."
+  notes: "Earns one academic credit per section. Course may be repeated. Students on certain Varsity teams should not enroll during their sport season."
+  description: "Vocal ensemble for beginner and advanced singers exploring classical, contemporary, and Musical Theatre repertoire. Students prepare for 2–3 concerts or festivals per year and develop music theory, ear training, and sight singing skills."
+
+- id: chamber-orchestra
+  name: "Chamber Orchestra"
+  blocks: "1 per section"
+  grade_levels: [9, 10, 11, 12]
+  prereqs: []
+  coreqs: []
+  block_type: "e_block"
+  schedule: "Tuesdays and Thursdays, 6:30–8:30 pm. Mods 1–2, 3–4, and 5–6."
+  notes: "Earns one academic credit per section. Course may be repeated. Students on certain Varsity teams should not enroll during their sport season."
+  description: "Open to all instrumental musicians. Prepares 4–6 concerts per year exploring a wide range of musical styles, idioms, and historical contexts."
