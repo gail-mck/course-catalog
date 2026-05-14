@@ -3,7 +3,7 @@ title: Art Courses
 ---
 
 {% comment %}
-  For all courses: https://shopify.github.io/liquid/
+  Language used for all course pages: https://shopify.github.io/liquid/
 {% endcomment %} 
 
 {% assign courses = site.data.art %}
