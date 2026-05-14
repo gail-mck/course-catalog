@@ -2,7 +2,9 @@
 title: Art Courses
 ---
 
-{% For all courses: https://shopify.github.io/liquid/ %}
+{% comment %}
+  For all courses: https://shopify.github.io/liquid/
+{% endcomment %} 
 
 {% assign courses = site.data.art %}
 
