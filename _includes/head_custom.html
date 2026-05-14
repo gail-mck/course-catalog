@@ -1,0 +1,154 @@
+<!-- font styles from online -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<!-- Use !important to override the "Just the Docs" defaults -->
+<!-- Fonts, color vairables, background, side bar, side title, navigation links, full-width, course grid, course cards, popup/modal overlay-->
+<style>
+
+  body, .main-content, p, li, .nav-list-link {
+    font-family: 'Nunito', sans-serif !important;
+  }
+  h1, h2, h3, h4, .site-title {
+    font-family: 'Playfair Display', serif !important;
+  }
+
+  :root {
+    --red:    #C41230;
+    --cream:  #FAF8F5;
+    --dark:   #3B1F1F;
+    --shadow: rgba(0,0,0,0.08);
+  }
+
+  body { background-color: var(--cream) !important; }
+
+  .side-bar {
+    width: 200px !important;
+    min-width: 200px !important;
+    background-color: #EDE8E0 !important;
+  }
+
+  .main-content-wrap {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .main-content {
+    margin-left: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .main { 
+    margin-left: 200 !important; 
+  }
+
+  .site-title {
+    color: var(--red) !important;
+    font-size: 1.2rem !important;
+  }
+
+  .nav-list-link:hover,
+  .nav-list-link.active {
+    color: var(--red) !important;
+  }
+
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .course-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 10px var(--shadow);
+    cursor: pointer;
+    border-left: 4px solid var(--red);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .course-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.13);
+  }
+  .course-card strong {
+    color: #1a1a1a;
+    font-size: 0.95rem;
+    line-height: 1.3;
+  }
+  .course-card p {
+    color: #777;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .modal-box {
+    background: #fff;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 580px;
+    width: 100%;
+    max-height: 82vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  }
+  .modal-box h2 {
+    font-family: 'Playfair Display', serif !important;
+    color: var(--red);
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
+  }
+  .modal-meta {
+    color: #999;
+    font-size: 0.85rem;
+    margin-bottom: 1.25rem;
+  }
+  .modal-label {
+    font-weight: 700;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--red);
+    margin: 1rem 0 0.2rem;
+  }
+  .modal-text {
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    margin: 0;
+  }
+  .modal-close {
+    position: absolute;
+    top: 0.9rem;
+    right: 0.9rem;
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #bbb;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    transition: background 0.1s, color 0.1s;
+  }
+  .modal-close:hover {
+    background: #f0f0f0;
+    color: #333;
+  }
+</style>
