@@ -2,6 +2,8 @@
 title: Art Courses
 ---
 
+{% For all courses: https://shopify.github.io/liquid/ %}
+
 {% assign courses = site.data.art %}
 
 <div class="course-grid">
