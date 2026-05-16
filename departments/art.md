@@ -2,10 +2,6 @@
 title: Art Courses
 ---
 
-{% comment %}
-  Language used for all course pages: https://shopify.github.io/liquid/
-{% endcomment %} 
-
 {% assign courses = site.data.art %}
 
 <div class="course-grid">
