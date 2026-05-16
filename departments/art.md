@@ -1,7 +1,7 @@
-<!-- Tells Jekyll I am starting a page and titles it -->
 ---
 title: Art Courses
 ---
+<!-- Above tells Jekyll I am starting a page and titles it -->
 
 <!-- Makes a variable called courses that contains all the course data for art -->
 {% assign courses = site.data.art %}
