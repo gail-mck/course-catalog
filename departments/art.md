@@ -22,7 +22,7 @@ title: Art Courses
     <!-- Escape in the last line tells Jekyll the course description is plain text, not html. -->
     <strong>{{ course.name }}</strong>
     <p>{{ course.blocks }} block(s)</p>
-    <p style="font-size:0.75rem;">Prereq: {{ course.prereqs }}</p>
+    <p style="font-size:0.75rem; color: #999">Prereq: {{ course.prereqs }}</p>
   </div>
 {% endfor %}
 </div>
