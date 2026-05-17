@@ -9,4 +9,5 @@ For whom: Incoming Madeira students, particularly those who are hasty to learn a
 Language used for the course pages: https://shopify.github.io/liquid/
 
 To make the course container a grid with 3 equal columns: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns    
-To add a red border to each card: https://developer.mozilla.org/en-US/docs/Web/CSS/border
+To add a red border to each card: https://developer.mozilla.org/en-US/docs/Web/CSS/border    
+Theme: https://just-the-docs.com/docs/
