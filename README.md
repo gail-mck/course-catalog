@@ -6,4 +6,7 @@ Why: Right now, the course catalog is a very long PDF, which makes it hard to un
 
 For whom: Incoming Madeira students, particularly those who are hasty to learn about all their class options. Additionally, it can hopefully make the course options less overwhelming for families that come from very different school systems by building an approachable UI. Academic deans (Ms. Mahoney and Ms. Carroll) are stakeholders, since they may use the tool alongside students. Admissions may also find it relevant since the tool is for new students. 
 
-Language used for all course pages: https://shopify.github.io/liquid/
+Language used for the course pages: https://shopify.github.io/liquid/
+
+To maake the course container a grid with 3 equal columns: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
+To add a red border to each card: https://developer.mozilla.org/en-US/docs/Web/CSS/border
